@@ -1,0 +1,37 @@
+.filters-title {
+  width: 16.5%;
+  font-size: x-large;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  color: #FFFF;
+}
+
+.filters-inputs-container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background: #036B52;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.rarity-filter-size {
+  width: 30%;
+  height: 60px;
+  align-self: center;
+}
+
+.super-trunfo-container {
+  height: 40px;
+  align-self: center;
+
+}

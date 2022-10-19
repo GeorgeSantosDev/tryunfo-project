@@ -1,0 +1,69 @@
+.shadowCard {
+ width: 358.17px;
+  height: 534.33px;
+  background: #FFFFFF;
+  box-shadow: 0px 3.89311px 18.4923px rgba(255, 249, 249, 0.5);
+  border-radius: 9.73277px;
+  margin: 15px;
+}
+
+.render-card-background {
+    position: relative;
+    color: #000;
+    width: 338.7px;
+    height: 514.86px;
+    margin-left: 9px;
+    top: 9px;
+    left: 1px;
+    background: #036B52;
+    border-radius: 9.73277px;
+}
+
+.render-card-name {
+  position: absolute;
+  width: 90%;
+  height: 38.93px;
+  display: flex;
+  justify-content: flex-end;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 700;
+  background: #023031;
+  border-radius: 9.73277px 9.73277px 0px 0px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.render-card-image {
+  width: 90%;
+  height: 264px;
+  background-size: cover;
+  top: 30px;
+  margin-left: 15px;
+  margin-top: 10px;
+  border-radius: 9.73277px 9.73277px 0px 0px;
+}
+
+.render-attrs-container {
+  width: 89%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  margin-top: 28px;
+  justify-content: flex-end;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+}
+
+.size-btns {
+  width: 30%;
+  align-self: center;
+}

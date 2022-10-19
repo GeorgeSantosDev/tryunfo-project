@@ -1,0 +1,62 @@
+body {
+  background-color: #052727;
+  font-family: 'Verdana';
+}
+
+.stage-to-make-cards {
+  display: flex;
+  width: 85%;
+  height: 760px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 19px rgba(0, 0, 0, 1);
+  border-radius: 20px;
+}
+
+.stage-to-show-cards {
+  width: 85%;
+  min-height: 300px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.deck-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.stage-to-play {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFFFFF;
+  width: 85%;
+  margin: 20px 0; 
+}
+
+.show-card {
+  display: flex;
+  justify-content: center;
+}
+
+.verso {
+  width: 25.5%;
+  height: 578px;
+}
+
+.btns-game-container {
+  display: flex;
+  justify-content:space-around;
+  width: 35%;
+  align-self: center;
+  margin: 20px 0;
+}
